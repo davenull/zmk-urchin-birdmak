@@ -32,7 +32,7 @@
 		layer1 {
 			label = "mouse";
 			bindings = <
-			&none &none &none &kp C_STOP &kp C_VOLUME_UP &none KC_BTN1 KC_WH_U KC_BTN2 &none &none KC_BTN2 &kp F20 KC_BTN1 &kp C_VOLUME_DOWN &none KC_MS_L KC_MS_D KC_MS_U KC_MS_R &none &none &none &none &kp C_MUTE &none KC_WH_L KC_WH_D KC_WH_R &none &none &none &none &none
+			&none &none &none &kp C_STOP &kp C_VOLUME_UP &none &kp KC_BTN1 &kp KC_WH_U &kp KC_BTN2 &none &none &kp KC_BTN2 &kp F20 &kp KC_BTN1 &kp C_VOLUME_DOWN &none &kp KC_MS_L &kp KC_MS_D &kp KC_MS_U &kp KC_MS_R &none &none &none &none &kp C_MUTE &none &kp KC_WH_L &kp KC_WH_D &kp KC_WH_R &none &none &none &none &none
 			>;
 		};
 
