@@ -23,53 +23,53 @@
     keymap {
       	compatible = "zmk,keymap";
 		layer0 {
-			label = "Base";
+			//label = "Base";
 			bindings = <
 			&kp Q &kp W &kp F &kp P &kp G &kp J &kp L &kp U &kp Y &kp SEMICOLON &mt LEFT_CONTROL A &lt 5 R &lt 1 S &lt 3 T &kp D &kp H &lt 4 N &lt 2 E &lt 6 I &mt LEFT_CONTROL O &mt LEFT_SHIFT Z &mt LEFT_CONTROL X &mt LEFT_ALT C &kp V &kp B &kp K &kp M &mt LEFT_ALT COMMA &mt LEFT_CONTROL DOT &mt LEFT_SHIFT SLASH &lt 8 ESCAPE &lt 2 BACKSPACE &lt 7 SPACE &mt LEFT_GUI TAB
 			>;
 		};
 
 		layer1 {
-			label = "mouse";
+			//label = "mouse";
 			bindings = <
 			&none &none &none &kp C_STOP &kp C_VOLUME_UP &none &none &none &none &none &none &none &kp F20 &none &kp C_VOLUME_DOWN &none &none &none &none &none &none &none &none &none &kp C_MUTE &none &none &none &none &none &none &none &none &none
 			>;
 		};
 
 		layer2 {
-			label = "move";
+			//label = "move";
 			bindings = <
 			&none &none &kp PAGE_UP &none &none &none &none &none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none &kp LEFT_GUI &kp F20 &kp LEFT_ALT &kp LSFT &none &kp HOME &kp PAGE_DOWN &kp END &none &none &none &none &none &none &none &none &kp ENTER &none
 			>;
 		};
 
 		layer3 {
-			label = "sym1";
+			//label = "sym1";
 			bindings = <
 			&none &none &none &none &none &none &kp UNDERSCORE &kp PIPE &kp SINGLE_QUOTE &none &none &kp ASTRK &kp AMPS &kp F20 &none &kp HASH &kp MINUS &kp SLASH &kp DQT &none &none &none &none &none &none &none &kp TILDE &kp BACKSLASH &kp GRAVE &none QMARK &none &none &kp AT
 			>;
 		};
 
 		layer4 {
-			label = "sym2";
+			//label = "sym2";
 			bindings = <
 			&none &kp COLON &kp LT &kp GT &kp SEMICOLON &none &none &none &none &none &kp LBRC &kp RBRC &kp LPAR &kp RPAR &kp AT &none &kp F20 &kp EQUAL &kp PLUS &kp PERCENT &none &kp EXCL &kp LEFT_BRACKET &kp RIGHT_BRACKET &none &none &none &none &none &none &kp C_VOLUME_DOWN &none &none &kp C_VOLUME_UP
 			>;
 		};
 		layer5 {
-			label = "func";
+			//label = "func";
 			bindings = <
 			&none &none &none &kp C_PLAY_PAUSE &kp C_VOLUME_UP &none &kp F7 &kp F8 &kp F9 &kp F10 &none &kp F20 &kp LC(LEFT_ALT) &kp C_FAST_FORWARD &kp C_VOLUME_DOWN &none &kp F4 &kp F5 &kp F6 &kp F11 &none &none &none &kp C_REWIND &kp C_MUTE &none &kp F1 &kp F2 &kp F3 &kp F12 &none &none &none &none
 			>;
 		};
 		layer6 {
-			label = "sym3";
+			//label = "sym3";
 			bindings = <
 			&kp SLASH &none  &none  &none  &kp PLUS &kp C_VOLUME_UP &kp C_PLAY_PAUSE &none &none &none &none &none &none &none &kp MINUS &kp C_VOLUME_DOWN &kp C_FAST_FORWARD &kp F20 &kp F20 &none &kp ASTERISK &kp N4 &kp N5 &kp N6 &kp KP_EQUAL &kp C_MUTE &kp C_REWIND &none &none &none &kp KP_DOT &none &none &none
 			>;
 		};
 		layer7 {
-			label = "alt";
+			//label = "alt";
 			bindings = <
 			&none &none &kp COLON &kp ESCAPE &none &none &none &none &none &kp DELETE &kp F20 PERCENT &kp SLASH &kp ENTER &none &none &kp LEFT_GUI &none &none &none &none &none &none &none &none &none &none &none &none &none  &kp LEFT_CONTROL &kp TAB &kp F20 &none
 			>;
