@@ -20,6 +20,62 @@
   #include <dt-bindings/zmk/outputs.h>
   #include "keymap_italian.h"
 / {
+	behaviors {
+		// Enables holding the first mod-tap key
+		// by performing a tap-release-hold sequence.
+		// To use it: "&qt KEYCODE1 KEYCODE2"
+		qt: quick_tap {
+			compatible = "zmk,behavior-hold-tap";
+			label = "QUICK_TAP";
+			#binding-cells = <2>;
+			flavor = "hold-preferred";
+			tapping-term-ms = <200>;
+			quick-tap-ms = <200>;
+			bindings = <&kp>, <&kp>;
+		};
+	};
+
+    macros {
+		// sometimes my device thinks a modifier is being held down
+		// pressing all modifiers fixes it.
+		unstick: unstick {
+			label = "ZM_unstick";
+			compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
+		};
+	};
+
+	combos {
+		compatible = "zmk,combos";
+		// both right thumb keys
+		combo_accent {
+			timeout-ms = <200>;
+			key-positions = <32 33>;
+			bindings = <&mo ACCENT>;
+		};
+		// internal-left & external-right thumb keys
+		combo_sym2 {
+			timeout-ms = <200>;
+			key-positions = <31 33>;
+			bindings = <&mo SYM2>;
+		};
+		// both left thumb keys
+		combo_settings {
+			timeout-ms = <200>;
+			key-positions = <30 31>;
+			bindings = <&mo SETTINGS>;
+		};
+		// left index & middle fingers (home-row)
+		// hold control & space for Adobe workflow
+		combo_ctrl_space {
+			timeout-ms = <200>;
+			key-positions = <12 13>;
+			bindings = <&kp LC(SPACE)>;
+			layers = <BASE>;
+		};
+	};
+
     keymap {
       	compatible = "zmk,keymap";
 		layer0 {
