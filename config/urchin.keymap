@@ -39,21 +39,21 @@
 		layer2 {
 			label = "move";
 			bindings = <
-			&none &none &kp PAGE_UP &none &none &none &none &none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none &kp LEFT_GUI &kp F20 &kp LC(LEFT_ALT) LCA(KC_LSFT) &none &kp HOME &kp PAGE_DOWN &kp END &none &none &none &none &none &none &none &none &kp ENTER &none
+			&none &none &kp PAGE_UP &none &none &none &none &none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none &kp LEFT_GUI &kp F20 &kp LEFT_ALT &kp LKP_LSFT &none &kp HOME &kp PAGE_DOWN &kp END &none &none &none &none &none &none &none &none &kp ENTER &none
 			>;
 		};
 
 		layer3 {
 			label = "sym1";
 			bindings = <
-			&none &none &none &none &none &none KC_UNDS KC_PIPE &kp SINGLE_QUOTE &none KC_CIRC KC_ASTR KC_AMPR &kp F20 &none KC_HASH &kp MINUS &kp SLASH KC_DQUO KC_DLR &none &none &none &none &none &none KC_TILD &kp BACKSLASH &kp GRAVE &none KC_QUES &none &none KC_AT
+			&none &none &none &none &none &none &kp KP_UNDS &kp KP_PIPE &kp SINGLE_QUOTE &none &kp KP_CIRC &kp KP_ASTR &kp KP_AMPR &kp F20 &none &kp KP_HASH &kp MINUS &kp SLASH &kp DQT &kp KP_DLR &none &none &none &none &none &none &kp TILDE &kp BACKSLASH &kp GRAVE &none KP_QUES &none &none &kp KP_AT
 			>;
 		};
 
 		layer4 {
 			label = "sym2";
 			bindings = <
-			&none KC_COLN KC_LT KC_GT &kp SEMICOLON &none &none &none &none &none KC_LCBR KC_RCBR KC_LPRN KC_RPRN KC_AT &none &kp F20 &kp EQUAL KC_PLUS KC_PERC &none KC_EXLM &kp LEFT_BRACKET &kp RIGHT_BRACKET &none &none &none &none &none &none &kp C_VOLUME_DOWN &none &none &kp C_VOLUME_UP
+			&none &kp KP_COLN &kp KP_LT &kp KP_GT &kp SEMICOLON &none &none &none &none &none &kp KP_LCBR &kp KP_RCBR &kp KP_LPRN &kp KP_RPRN &kp KP_AT &none &kp F20 &kp EQUAL &kp KP_PLUS &kp KP_PERC &none &kp KP_EXLM &kp LEFT_BRACKET &kp RIGHT_BRACKET &none &none &none &none &none &none &kp C_VOLUME_DOWN &none &none &kp C_VOLUME_UP
 			>;
 		};
 		layer5 {
@@ -71,14 +71,10 @@
 		layer7 {
 			label = "alt";
 			bindings = <
-			&none &none KC_COLN &kp ESCAPE &none &none &none &none &none &kp DELETE &kp F20 KC_PERC &kp SLASH &kp ENTER &none DF(1) &kp LEFT_GUI &none &none &none &none &none &none KC_EXLM &none DF(0) &none RALT_T(KC_COMM) RCTL_T(KC_DOT) QK_BOOT &kp LEFT_CONTROL &kp TAB &kp F20 &none
+			&none &none &kp KP_COLN &kp ESCAPE &none &none &none &none &none &kp DELETE &kp F20 KP_PERC &kp SLASH &kp ENTER &none &none &kp LEFT_GUI &none &none &none &none &none &none &none &none &none &none &none &none &none  &kp LEFT_CONTROL &kp TAB &kp F20 &none
 			>;
 		};
-		layer8 {
-			bindings = <
-			&kp F20 &kp LEFT_GUI &kp F20 &kp F20 &kp F20 OSM(MOD_MEH) OSM(MOD_HYPR) OSM(MOD_LCTL|MOD_LSFT) OSM(MOD_LCTL|MOD_LALT) OSM(MOD_LALT|MOD_LGUI) &kp PRINTSCREEN &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 OSM(MOD_LSFT|MOD_LGUI) &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp DELETE
-			>;
-		};
+
 	};
 };
   
