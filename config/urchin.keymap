@@ -39,7 +39,7 @@
 		layer2 {
 			label = "move";
 			bindings = <
-			&none &none &kp PAGE_UP &none &none &none &none &none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none &kp LEFT_GUI &kp F20 &kp LEFT_ALT &kp LKP_LSFT &none &kp HOME &kp PAGE_DOWN &kp END &none &none &none &none &none &none &none &none &kp ENTER &none
+			&none &none &kp PAGE_UP &none &none &none &none &none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none &kp LEFT_GUI &kp F20 &kp LEFT_ALT &kp LSFT &none &kp HOME &kp PAGE_DOWN &kp END &none &none &none &none &none &none &none &none &kp ENTER &none
 			>;
 		};
 
