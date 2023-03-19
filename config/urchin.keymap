@@ -46,7 +46,7 @@
 		layer3 {
 			label = "sym1";
 			bindings = <
-			&none &none &none &none &none &none &kp UNDERSCORE &kp PIPE &kp SINGLE_QUOTE &none &none &kp ASTRK &kp AMPS &kp F20 &none &kp KP_HASH &kp MINUS &kp SLASH &kp DQT &kp KP_DLR &none &none &none &none &none &none &kp TILDE &kp BACKSLASH &kp GRAVE &none QMARK &none &none &kp AT
+			&none &none &none &none &none &none &kp UNDERSCORE &kp PIPE &kp SINGLE_QUOTE &none &none &kp ASTRK &kp AMPS &kp F20 &none &kp KP_HASH &kp MINUS &kp SLASH &kp DQT &none &none &none &none &none &none &none &kp TILDE &kp BACKSLASH &kp GRAVE &none QMARK &none &none &kp AT
 			>;
 		};
 
