@@ -112,7 +112,7 @@
 			label = "Mods";
 			bindings = <
 			&kp ESC  &none		&kp PG_UP  	&kp C_NEXT  &kp C_PAUSE    		&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
-			&kp LEFT &kp DOWN  	&kp UP  	&kp Right  	&kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
+			&kp LEFT &kp DOWN  	&kp UP  	&kp Right  	&none 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
 			&none  	&kp HOME 	&kp PG_DN 	&kp END   	&none          	&kp LC(BSPC) &kp BSPC &trans &trans  &trans
 											&trans 	&kp LCTRL    			&kp ENTER  &mo FNC 
 			>;
