@@ -92,7 +92,7 @@
 			&kp Q &kp W &kp F &kp P &kp G           &kp J &kp L  &kp U     &kp Y   &kp SEMI 
 			&kp A &kp R &kp S &kp T &kp D           &kp H &kp N  &kp E     &kp I   &kp O
 			&kp Z &kp X &kp C &kp V &kp B           &kp K &kp M  &kp COMMA &kp DOT &kp SLASH
-							&mo EXT &qt LSHIFT SPACE           &kp SPACE &sl SYM
+							&mo EXT &lt 2 SPACE           &lt 5 SPACE &sl SYM
 			>;
 		};
 
@@ -111,10 +111,10 @@
 		ext_layer {
 			label = "Mods";
 			bindings = <
-			&kp ESC  &kp C_PREV &kp C_PP  &kp C_NEXT  &kp C_PAUSE    	&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
-			&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
-			&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
-																		&trans &kp LCTRL    &kp ENTER  &mo FNC 
+			&kp ESC  &none		&kp PG_UP  	&kp C_NEXT  &kp C_PAUSE    		&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
+			&kp LEFT &kp DOWN  	&kp UP  	&kp Right  	&kp RALT 			&kp PG_DN &kp LGUI  &kp DOWN  &kp RIGHT   &kp DEL
+			&none  	&kp HOME 	&kp PG_DN 	&kp END   	&none          	&kp LC(BSPC) &kp BSPC &trans &trans  &trans
+											&trans 	&kp LCTRL    			&kp ENTER  &mo FNC 
 			>;
 		};
 
