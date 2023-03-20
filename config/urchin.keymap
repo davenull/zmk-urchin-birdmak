@@ -26,7 +26,7 @@
 		// To use it: "&qt KEYCODE1 KEYCODE2"
 		qt: quick_tap {
 			compatible = "zmk,behavior-hold-tap";
-			label = "QUICK_TAP";
+			//label = "QUICK_TAP";
 			#binding-cells = <2>;
 			flavor = "hold-preferred";
 			tapping-term-ms = <200>;
