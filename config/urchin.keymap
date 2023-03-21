@@ -16,7 +16,7 @@
 #define EXT 2
 #define FNC 3
 #define SYM2 4
-#define ACCENT 5
+#define NUMS 5
 #define SETTINGS 6
 // -----------------
 
@@ -89,10 +89,10 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&kp Q &kp W &kp F &kp P &kp G           &kp J &kp L  &kp U     &kp Y   &kp SEMI 
-			&mt LCTRL A &kp R &kp S &lt SYM2 T &kp D           &kp H &lt SYM N  &lt EXT E  &kp I   &mt RCTRL O
-			&mt LSHIFT Z &kp X &kp C &kp V &kp B           &kp K &kp M  &kp COMMA &kp DOT &mt RSHIFT SLASH
-							&mo EXT &lt EXT BACKSPACE           &lt ACCENT SPACE &mt LGUI TAB
+			&kp Q 			&kp W &kp F &kp P 		&kp G      			&kp J &kp L  		&kp U     	&kp Y   	&kp SEMI 
+			&mt LCTRL A 	&kp R &kp S &lt SYM2 T 	&kp D           	&kp H &lt SYM N  	&lt EXT E  	&lt NUMS I  &mt RCTRL O
+			&mt LSHIFT Z 	&kp X &kp C &kp V 		&kp B          		&kp K &kp M  		&kp COMMA 	&kp DOT 	&mt RSHIFT SLASH
+										&mo EXT 	&lt EXT BACKSPACE  	&lt ACCENT SPACE &mt LGUI TAB
 			>;
 		};
 
@@ -112,9 +112,9 @@
 			label = "Mods";
 			bindings = <
 			&kp ESC  &kp C_PREV &kp PG_UP  &kp C_NEXT  &kp C_PAUSE    	&kp C_PAUSE  &kp C_NEXT &kp PG_UP &kp C_PREV &kp DEL
-			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT  &kp RALT 			 &none &none &none &none &none
 			&none  &kp HOME &kp PG_DN &kp END   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
-																		&trans &kp LCTRL    &kp ENTER  &mo FNC 
+												&trans &kp LCTRL    &kp ENTER  &mo FNC 
 			>;
 		};
 
@@ -136,18 +136,18 @@
 			&none &none &none &none  &none         				&none &kp UNDERSCORE &kp PIPE 	&kp SQT 	&none 
 			&kp CARET &kp STAR &kp AMPS &trans &none    	    &none &kp MINUS 	 &kp SLASH 	&kp DQT 	&none
 			&none &none &none &none  &none				  		&none &kp TILDE  	 &kp BSLH 	&kp GRAVE 	&none
-																	&none &none        	&none &none 
+											&none &none        	&none &none 
 			>;
 		};  
 
 		// Used to type regional accents.
 		accent_layer {
-			label = "Accent";
+			label = "NUMS";
 			bindings = <
-			&none &none &none &kp IT_CEGR &none                         &none &none &none &none &none 
-			&kp IT_AGRV &kp IT_IGRV &kp IT_OGRV &kp IT_EGRV &kp IT_EACU &none &none &none &none &none
-			&none &none &none &kp IT_UGRV &none                         &none &none &none &none &none
-									&none &none                         &none &none 
+			&kp KP_DIVIDE 	&kp KP_N7 	&kp KP_N8  	&kp KP_N9 	&kp KP_PLUS                    &kp C_VOL_UP 	&kp C_PP 	&none &none &kp DEL 
+			&kp KP_N0  		&kp KP_N1  	&kp KP_N2  	&kp KP_N3  	&kp KP_MINUS                   &kp C_VOL_DOWN 	&kp C_NEXT 	&none &none &none
+			&kp KP_MULTIPLY &kp KP_N4 	&kp KP_N5 	&kp KP_N6 	&kp KP_EQUAL                   &kp C_MUTE 		&kp C_PREV 		&none &none &none
+														&kp DOT &KP TAB                        &none &trans 
 			>;
 		};
 
