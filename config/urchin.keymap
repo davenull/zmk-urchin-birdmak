@@ -92,7 +92,7 @@
 			&kp Q 			&kp W &kp F &kp P 		&kp G      			&kp J &kp L  		&kp U     	&kp Y   	&kp SEMI 
 			&mt LCTRL A 	&lt FNC R &kp S &lt SYM2 T 	&kp D           	&kp H &lt SYM N  	&lt EXT E  	&lt NUMS I  &mt RCTRL O
 			&mt LSHIFT Z 	&kp X &kp C &kp V 		&kp B          		&kp K &kp M  		&kp COMMA 	&kp DOT 	&mt RSHIFT SLASH
-										&mo EXT 	&lt EXT BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
+										&lt EXT ESC	&lt SYM BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
 			>;
 		};
 
@@ -103,7 +103,7 @@
 			&kp N1 	 &kp COLON 	&kp LT 	 &kp GT   &kp SEMI            &none &none &none 	&none 	 &none
 			&kp LBRC &kp RBRC 	&kp LPAR &kp RPAR &kp AT    		  &none &none &kp EQUAL &kp PLUS &kp PERCENT
 			&none 	 &kp EXCL 	&kp LBKT &kp RBKT &trans 			  &none &none &none  	&none  	 &none
-											&trans  &trans       &trans &trans 
+											&trans  &trans       &kp ENTER &trans 
 			>;
 		};
 
