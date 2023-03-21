@@ -90,7 +90,7 @@
 			label = "Base";
 			bindings = <
 			&kp Q 			&kp W &kp F &kp P 		&kp G      			&kp J &kp L  		&kp U     	&kp Y   	&kp SEMI 
-			&mt LCTRL A 	&kp R &kp S &lt SYM2 T 	&kp D           	&kp H &lt SYM N  	&lt EXT E  	&lt NUMS I  &mt RCTRL O
+			&mt LCTRL A 	&lt FNC R &kp S &lt SYM2 T 	&kp D           	&kp H &lt SYM N  	&lt EXT E  	&lt NUMS I  &mt RCTRL O
 			&mt LSHIFT Z 	&kp X &kp C &kp V 		&kp B          		&kp K &kp M  		&kp COMMA 	&kp DOT 	&mt RSHIFT SLASH
 										&mo EXT 	&lt EXT BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
 			>;
@@ -123,7 +123,7 @@
 			label = "FRow";
 			bindings = <
 			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
-			&sk LALT &sk LGUI &sk LSHIFT &sk LCTRL &kp RALT     &kp F11 &kp F12  &kp PRINTSCREEN &trans &trans
+			&sk LALT &none &sk LSHIFT &sk LCTRL &kp RALT     &kp F11 &kp F12  &kp PRINTSCREEN &trans &trans
 			&none &none &none &none &none				          &none &none &none &none &none 
 							  &none &none              &none &none  
 			>;
@@ -134,7 +134,7 @@
 			label = "Sym.2";
 			bindings = <
 			&none &none &none &none  &none         				&none &kp UNDERSCORE &kp PIPE 	&kp SQT 	&none 
-			&kp CARET &kp STAR &kp AMPS &trans &none    	    &none &kp MINUS 	 &kp SLASH 	&kp DQT 	&none
+			&kp CARET &kp STAR &kp AMPS &none &none    	    &none &kp MINUS 	 &kp SLASH 	&kp DQT 	&none
 			&none &none &none &none  &none				  		&none &kp TILDE  	 &kp BSLH 	&kp GRAVE 	&none
 											&none &none        	&none &none 
 			>;
