@@ -90,7 +90,7 @@
 			label = "Base";
 			bindings = <
 			&kp Q &kp W &kp F &kp P &kp G           &kp J &kp L  &kp U     &kp Y   &kp SEMI 
-			&mt LCTRL A &kp R &kp S &mt SYM T &kp D           &kp H &mt SYM2 N  &mt EXT E  &kp I   &mt RCTRL O
+			&mt LCTRL A &kp R &kp S &lt SYM T &kp D           &kp H &lt SYM2 N  &lt EXT E  &kp I   &mt RCTRL O
 			&mt LSHIFT Z &kp X &kp C &kp V &kp B           &kp K &kp M  &kp COMMA &kp DOT &mt RSHIFT SLASH
 							&mo EXT &lt EXT BACKSPACE           &lt ACCENT SPACE &mt LGUI TAB
 			>;
