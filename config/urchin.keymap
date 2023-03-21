@@ -56,7 +56,7 @@
 	combos {
 		compatible = "zmk,combos";
 		// both right thumb keys
-		combo_accent {
+		combo_number {
 			timeout-ms = <200>;
 			key-positions = <32 33>;
 			bindings = <&mo NUMS>;
@@ -140,13 +140,13 @@
 			>;
 		};  
 
-		// Used to type regional accents.
+		// Numpad for mow
 		number_layer {
 			label = "NUM";
 			bindings = <
-			&kp KP_DIVIDE 	&kp KP_N7 	&kp KP_N8  	&kp KP_N9 	&kp KP_PLUS                    &kp C_VOL_UP 	&kp C_PP 	&none &none &kp DEL 
-			&kp KP_N0  		&kp KP_N1  	&kp KP_N2  	&kp KP_N3  	&kp KP_MINUS                   &kp C_VOL_DOWN 	&kp K_NEXT 	&none &none &none
-			&kp KP_MULTIPLY &kp KP_N4 	&kp KP_N5 	&kp KP_N6 	&kp KP_EQUAL                   &kp C_MUTE 		&kp K_PREV 	&none &none &none
+			&kp KP_SLASH 	&kp KP_N7 	&kp KP_N8  	&kp KP_N9 	&kp KP_PLUS                    &kp C_VOL_UP 	&kp K_PLAY 	&none &none &kp DELETE 
+			&kp KP_N0  		&kp KP_N1  	&kp KP_N2  	&kp KP_N3  	&kp KP_SUBTRACT                &kp C_VOL_DOWN 	&kp K_NEXT 	&none &none &none
+			&kp KP_ASTERISK &kp KP_N4 	&kp KP_N5 	&kp KP_N6 	&kp KP_EQUAL                   &kp C_MUTE 		&kp K_PREV 	&none &none &none
 														&kp DOT &KP TAB                        &none &trans 
 			>;
 		};
