@@ -90,7 +90,7 @@
 			label = "Base";
 			bindings = <
 			&kp Q &kp W &kp F &kp P &kp G           &kp J &kp L  &kp U     &kp Y   &kp SEMI 
-			&mt LCTRL A &kp R &kp S &lt SYM T &kp D           &kp H &lt SYM2 N  &lt EXT E  &kp I   &mt RCTRL O
+			&mt LCTRL A &kp R &kp S &lt SYM2 T &kp D           &kp H &lt SYM N  &lt EXT E  &kp I   &mt RCTRL O
 			&mt LSHIFT Z &kp X &kp C &kp V &kp B           &kp K &kp M  &kp COMMA &kp DOT &mt RSHIFT SLASH
 							&mo EXT &lt EXT BACKSPACE           &lt ACCENT SPACE &mt LGUI TAB
 			>;
@@ -101,8 +101,8 @@
 			label = "Sym.";
 			bindings = <
 			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-			&kp IT_LESS &kp IT_USD &kp IT_LPAR &trans &kp IT_LBKT  &kp IT_EQL &kp IT_QUES &kp IT_SQUOT &kp IT_MINUS &kp IT_AST
-			&kp IT_GREAT &kp IT_PERC &kp IT_RPAR &kp IT_RBRC &kp IT_RBKT 	&kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp IT_FSLH
+			&kp LBRC &kp RBRC &kp LPAR &RPAR &kp AT  						&kp IT_EQL &none &kp IT_SQUOT &kp IT_MINUS &kp IT_AST
+			&none &kp EXCL &kp LBKT &kp RBKT &trans 				&kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp IT_FSLH
 														&mo FNC  &mo SYM2       &trans &trans
 			>;
 		};
