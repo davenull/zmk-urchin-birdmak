@@ -59,7 +59,7 @@
 		combo_accent {
 			timeout-ms = <200>;
 			key-positions = <32 33>;
-			bindings = <&mo ACCENT>;
+			bindings = <&mo NUMS>;
 		};
 		// internal-left & external-right thumb keys
 		combo_sym2 {
