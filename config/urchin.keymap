@@ -100,10 +100,10 @@
 		sym_layer {
 			label = "Sym.";
 			bindings = <
-			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-			&kp LBRC &kp RBRC &kp LPAR &kp RPAR &kp AT  						&kp IT_EQL &none &kp IT_SQUOT &kp IT_MINUS &kp IT_AST
-			&none &kp EXCL &kp LBKT &kp RBKT &trans 				&kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp IT_FSLH
-														&mo FNC  &mo SYM2       &trans &trans
+			&kp N1 	 &kp COLON 	&kp LT 	 &kp GT   &kp SEMI            &none &none &none 	&none 	 &none
+			&kp LBRC &kp RBRC 	&kp LPAR &kp RPAR &kp AT    		  &none &none &kp EQUAL &kp PLUS &kp PERCENT
+			&none 	 &kp EXCL 	&kp LBKT &kp RBKT &trans 			  &none &none &none  	&none  	 &none
+											&trans  &trans       &trans &trans 
 			>;
 		};
 
