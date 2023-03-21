@@ -144,9 +144,9 @@
 		number_layer {
 			label = "NUM";
 			bindings = <
-			&kp KP_SLASH 	&kp KP_N7 	&kp KP_N8  	&kp KP_N9 	&kp KP_PLUS                    &kp C_VOL_UP 	&kp K_PLAY 	&none &none &kp DELETE 
-			&kp KP_N0  		&kp KP_N1  	&kp KP_N2  	&kp KP_N3  	&kp KP_SUBTRACT                &kp C_VOL_DOWN 	&kp K_NEXT 	&none &none &none
-			&kp KP_ASTERISK &kp KP_N4 	&kp KP_N5 	&kp KP_N6 	&kp KP_EQUAL                   &kp C_MUTE 		&kp K_PREV 	&none &none &none
+			&kp SLASH	 	&kp KP_N7 	&kp KP_N8  	&kp KP_N9 	&kp PLUS                    &kp k_VOL_UP 	&kp C_PLAY 	&none &none &kp DELETE 
+			&kp KP_N0  		&kp KP_N1  	&kp KP_N2  	&kp KP_N3  	&kp MINUS                	&kp k_VOL_DOWN 	&kp C_NEXT 	&none &none &none
+			&kp ASTERISK 	&kp KP_N4 	&kp KP_N5 	&kp KP_N6 	&kp EQUAL                   &kp k_MUTE 		&kp C_PREV 	&none &none &none
 														&kp DOT &kp TAB                        &none &trans 
 			>;
 		};
