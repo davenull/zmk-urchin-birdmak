@@ -141,12 +141,12 @@
 		};  
 
 		// Used to type regional accents.
-		accent_layer {
-			label = "NUMS";
+		number_layer {
+			label = "NUM";
 			bindings = <
 			&kp KP_DIVIDE 	&kp KP_N7 	&kp KP_N8  	&kp KP_N9 	&kp KP_PLUS                    &kp C_VOL_UP 	&kp C_PP 	&none &none &kp DEL 
 			&kp KP_N0  		&kp KP_N1  	&kp KP_N2  	&kp KP_N3  	&kp KP_MINUS                   &kp C_VOL_DOWN 	&kp C_NEXT 	&none &none &none
-			&kp KP_MULTIPLY &kp KP_N4 	&kp KP_N5 	&kp KP_N6 	&kp KP_EQUAL                   &kp C_MUTE 		&kp C_PREV 		&none &none &none
+			&kp KP_MULTIPLY &kp KP_N4 	&kp KP_N5 	&kp KP_N6 	&kp KP_EQUAL                   &kp C_MUTE 		&kp C_PREV 	&none &none &none
 														&kp DOT &KP TAB                        &none &trans 
 			>;
 		};
