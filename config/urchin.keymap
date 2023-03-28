@@ -92,7 +92,7 @@
 			&kp Q 			&kp W &kp F &kp P 		&kp G      			&kp J &kp L  		&kp U     	&kp Y   	&kp SEMI 
 			&mt LCTRL A 	&lt FNC R &kp S &lt SYM2 T 	&kp D           	&kp H &lt SYM N  	&lt EXT E  	&lt NUMS I  &mt RCTRL O
 			&mt LSHIFT Z 	&kp X &kp C &kp V 		&kp B          		&kp K &kp M  		&kp COMMA 	&kp DOT 	&mt RSHIFT SLASH
-										&lt EXT ESC	&lt EXT BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
+										&mt LGUI ESC	&lt EXT BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
 			>;
 		};
 
