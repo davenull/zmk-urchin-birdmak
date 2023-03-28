@@ -38,7 +38,7 @@
 			flavor = "hold-preferred";
 			tapping-term-ms = <200>;
 			quick-tap-ms = <200>;
-			bindings = <&mo>, <&kp>;
+			bindings = <&kp>, <&kp>;
 		};
 			gqt: global-quick-tap {
 				compatible = "zmk,behavior-hold-tap";
@@ -48,7 +48,7 @@
 				tapping-term-ms = <200>;
 				quick-tap-ms = <125>;
 				global-quick-tap;
-				bindings = <&kp>, <&kp>;
+				bindings = <&mo>, <&kp>;
 			};
 	};
 
