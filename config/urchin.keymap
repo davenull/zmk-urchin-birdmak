@@ -111,7 +111,7 @@
 		ext_layer {
 			label = "Mods";
 			bindings = <
-			&kp ESC  &kp C_PREV &kp PG_UP  &kp C_NEXT  &kp C_PAUSE    	&kp C_PAUSE  &kp C_NEXT &kp PG_UP &kp C_PREV &kp DEL
+			&kp ESC  &kp C_PREV &kp PG_UP  &kp C_NEXT  &kp C_PP    	&kp C_PP  &kp C_NEXT &kp PG_UP &kp C_PREV &kp DEL
 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT  &kp ESC 			 &none &none &none &none &none
 			&none  &kp HOME &kp PG_DN &kp END   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
 												&none &kp LCTRL    &kp ENTER  &mo FNC 
