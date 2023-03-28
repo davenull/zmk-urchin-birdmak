@@ -40,6 +40,16 @@
 			quick-tap-ms = <200>;
 			bindings = <&kp>, <&kp>;
 		};
+		gqt: global-quick-tap {
+    		compatible = "zmk,behavior-hold-tap";
+			label = "GLOBAL_QUICK_TAP";
+			#binding-cells = <2>;
+			flavor = "tap-preferred";
+			tapping-term-ms = <200>;
+			quick-tap-ms = <125>;
+			global-quick-tap;
+			bindings = <&kp>, <&kp>;
+};
 	};
 
 	macros {
@@ -92,7 +102,7 @@
 			&kp Q 			&kp W &kp F &kp P 		&kp G      			&kp J &kp L  		&kp U     	&kp Y   	&kp SEMI 
 			&mt LCTRL A 	&lt FNC R &kp S &lt SYM2 T 	&kp D           	&kp H &lt SYM N  	&lt EXT E  	&lt NUMS I  &mt RCTRL O
 			&mt LSHIFT Z 	&kp X &kp C &kp V 		&kp B          		&kp K &kp M  		&kp COMMA 	&kp DOT 	&mt RSHIFT SLASH
-										&mt LGUI ESC	&qt EXT BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
+										&mt LGUI ESC	&gqt EXT BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
 			>;
 		};
 
