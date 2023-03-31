@@ -45,7 +45,7 @@
 				label = "GLOBAL_QUICK_TAP";
 				#binding-cells = <2>;
 				flavor = "tap-preferred";
-				tapping-term-ms = <200>;
+				tapping-term-ms = <185>;
 				quick-tap-ms = <175>;
 				global-quick-tap;
 				bindings = <&mo>, <&kp>;
@@ -89,6 +89,18 @@
 			timeout-ms = <200>;
 			key-positions = <12 13>;
 			bindings = <&kp LC(SPACE)>;
+			layers = <BASE>;
+		};
+		combo_ctrl_shift {
+			timeout-ms = <200>;
+			key-positions = <16 17>;
+			bindings = <&kp LC(LSHIFT)>;
+			layers = <BASE>;
+		};
+		combo_cmd_mac{
+			timeout-ms = <200>;
+			key-positions = <17 18>;
+			bindings = <&kp LGUI>;
 			layers = <BASE>;
 		};
 	};
