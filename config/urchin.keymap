@@ -36,8 +36,8 @@
 			label = "QUICK_TAP";
 			#binding-cells = <2>;
 			flavor = "hold-preferred";
-			tapping-term-ms = <200>;
-			quick-tap-ms = <200>;
+			tapping-term-ms = <190>;
+			quick-tap-ms = <185>;
 			bindings = <&kp>, <&kp>;
 		};
 			gqt: global-quick-tap {
@@ -113,8 +113,8 @@
 			bindings = <
 			&kp Q 			&kp W &kp F &kp P 		&kp G      			&kp J &kp L  		&kp U     	&kp Y   	&kp SEMI 
 			&mt LCTRL A 	&lt FNC R &kp S &lt SYM2 T 	&kp D           	&kp H &lt SYM N  	&lt EXT E  	&lt NUMS I  &mt RCTRL O
-			&mt LSHIFT Z 	&kp X &kp C &kp V 		&kp B          		&kp K &kp M  		&kp COMMA 	&kp DOT 	&mt RSHIFT SLASH
-										&mt LGUI ESC	&gqt EXT BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
+			&mt LSHIFT Z 	&mt LALT X &kp C &kp V 		&kp B          		&kp K &kp M  		&kp COMMA 	&mt LALT DOT 	&mt RSHIFT SLASH
+										&mt LGUI ESC	&qt EXT BACKSPACE  	&lt SETTINGS SPACE &mt LGUI TAB
 			>;
 		};
 
