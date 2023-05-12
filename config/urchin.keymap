@@ -109,7 +109,7 @@
 		compatible = "zmk,keymap";
 		// Base alpha layer
 		default_layer {
-			label = "Base";
+			label = "Based";
 			bindings = <
 			&kp Q 			&kp W &kp F &kp P 		&kp G      			&kp J &kp L  		&kp U     	&kp Y   	&kp SEMI 
 			&mt LCTRL A 	&lt FNC R &kp S &lt SYM2 T 	&kp D           	&kp H &lt SYM N  	&lt EXT E  	&lt NUMS I  &mt RCTRL O
@@ -120,7 +120,7 @@
 
 		// Numbers and high frequency symbols
 		sym_layer {
-			label = "Sym.";
+			label = "Sym.1";
 			bindings = <
 			&kp N1 	 &kp COLON 	&kp LT 	 &kp GT   &kp SEMI            &none &none &none 	&none 	 &none
 			&kp LBRC &kp RBRC 	&kp LPAR &kp RPAR &kp AT    		  &none &none &kp EQUAL &kp PLUS &kp PERCENT
@@ -131,7 +131,7 @@
 
 		// Main modifiers and arrow keys
 		ext_layer {
-			label = "Mods";
+			label = "Move";
 			bindings = <
 			&kp ESC  &kp C_PREV &kp PG_UP  &kp C_NEXT  &kp C_PP    	&kp C_PP  &kp C_NEXT &kp PG_UP &kp C_PREV &kp DEL
 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT  &kp ESC 			 &none &none &none &none &none
@@ -175,7 +175,7 @@
 
 		// Used to change the keyboard's settings.
 		settings_layer {
-				label = "Sett.";
+				label = "FireCTL";
 				bindings = <
 				&bootloader &out OUT_BLE &out OUT_USB &bt BT_CLR &bt BT_SEL 0                 &bt BT_SEL 3 &none &unstick &none &bootloader 
 				&kp LCTRL &none &kp CAPS &none      &bt BT_SEL 1 					&bt BT_SEL 4 &out OUT_BLE &none &none &kp RCTRL
