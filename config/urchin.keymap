@@ -179,7 +179,7 @@
 				bindings = <
 				&bootloader &out OUT_BLE &out OUT_USB &bt BT_CLR &bt BT_SEL 0                 &bt BT_SEL 3 &none &unstick &none &bootloader 
 				&kp LCTRL &none &kp CAPS &none      &bt BT_SEL 1 					&bt BT_SEL 4 &out OUT_BLE &none &none &kp RCTRL
-				&kp LSHIFT &none &none &none      &bt BT_SEL 2                  &bt BT_SEL 5 &none &none &none &kp RSHIFT
+				&kp LSHIFT &none &caps_word &none      &bt BT_SEL 2                  &bt BT_SEL 5 &none &none &none &kp RSHIFT
 										&none &kp LG(TAB)                       &none &none 
 				>;
 		};
