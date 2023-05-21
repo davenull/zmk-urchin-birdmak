@@ -166,9 +166,9 @@
 		number_layer {
 			label = "NUM";
 			bindings = <
-			&kp SLASH	 	&kp N7 		&kp N8  	&kp N9 	&kp PLUS                    &kp C_VOL_UP 	&kp C_PP 	&none &none &kp DELETE 
-			&kp N0  		&kp N1  	&kp N2  	&kp N3  &kp MINUS                	&kp C_VOL_DN  	&none 		&none &none &none
-			&kp STAR 		&kp N4 		&kp N5 		&kp N6 	&kp EQUAL                   &kp C_MUTE	 	&none   	&none &none &none
+			&kp SLASH	&kp N7 		&kp N8  	&kp N9 	&kp PLUS                 &kp C_VOL_UP 	&kp C_PP 	&none &none &kp DELETE 
+			&kp N0  	&kp N1  	&kp N2  	&kp N3  &kp MINUS                &kp C_VOL_DN  	&none 		&none &none &none
+			&kp STAR 	&kp N4 		&kp N5 		&kp N6 	&kp EQUAL                &kp C_MUTE     &none   &none &none &none
 														&kp DOT &kp BSPC                        &none &trans 
 			>;
 		};
@@ -177,9 +177,9 @@
 		settings_layer {
 				label = "FireCTL";
 				bindings = <
-				&bootloader &out OUT_BLE &out OUT_USB &bt BT_CLR &bt BT_SEL 0                 &bt BT_SEL 3 &none &unstick &none &bootloader 
+				&bootloader &out OUT_BLE &out OUT_USB &none &bt BT_SEL 0                 		&bt BT_SEL 3 &none &unstick &none &bootloader 
 				&kp LCTRL &none &kp CAPS &none      &bt BT_SEL 1 					&bt BT_SEL 4 &out OUT_BLE &none &none &kp RCTRL
-				&kp LSHIFT &none &caps_word &none      &bt BT_SEL 2                  &bt BT_SEL 5 &none &none &none &kp RSHIFT
+				&kp LSHIFT &none &caps_word &none      &bt BT_SEL 2                 			&bt BT_SEL 5 &bt BT_CLR &none &none &kp RSHIFT
 										&none &kp LG(TAB)                       &none &none 
 				>;
 		};
