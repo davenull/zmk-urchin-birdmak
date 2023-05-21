@@ -177,9 +177,9 @@
 		settings_layer {
 				label = "FireCTL";
 				bindings = <
-				&bootloader &out OUT_BLE &out OUT_USB &none &bt BT_SEL 0                 		&bt BT_SEL 3 &none &unstick &none &bootloader 
+				&none &out OUT_BLE &out OUT_USB &none &bt BT_SEL 0                 		 	&bt BT_SEL 3 &unstick &none &none &kp DELETE
 				&kp LCTRL &none &kp CAPS &none      &bt BT_SEL 1 					&bt BT_SEL 4 &out OUT_BLE &none &none &kp RCTRL
-				&kp LSHIFT &none &caps_word &none      &bt BT_SEL 2                 			&bt BT_SEL 5 &bt BT_CLR &none &none &kp RSHIFT
+				&bootloader &none &caps_word &none      &bt BT_SEL 2                 			&bt BT_SEL 5 &bt BT_CLR &none &none &bootloader
 										&none &kp LG(TAB)                       &none &none 
 				>;
 		};
