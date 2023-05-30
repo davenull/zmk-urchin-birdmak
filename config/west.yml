@@ -11,8 +11,8 @@ manifest:
       
   projects:
     - name: zmk
-      remote: nicell
-      revision: nice-view-custom-screen
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
