@@ -94,7 +94,7 @@
 		combo_shift_4 {
 			timeout-ms = <200>;
 			key-positions = <12 13>;
-			bindings = <&kp LGUI(LSHIFT(4))>;
+			bindings = <&kp LG(LS(4))>;
 			layers = <BASE>;
 		};
 		combo_ctrl_shift {
