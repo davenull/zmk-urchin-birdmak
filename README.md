@@ -4,6 +4,10 @@
 [Here are the steps you need to take.](./GETTING_STARTED.md)
 
 **Do you want to download my keymap?**  
+
+> **Note**  
+> My firmware only matches the following diagram if the operating system is set to "Italian" keyboard input.
+
 [Download the firmware zip from the latest action run.](https://github.com/duckyb/zmk-urchin/actions/workflows/build.yml?query=is%3Asuccess+branch%3Amaster) Check [the ZMK docs](https://zmk.dev/docs/user-setup#installing-the-firmware) for instructions on how to flash it.
 
 ## Keymap Cheat Sheet
