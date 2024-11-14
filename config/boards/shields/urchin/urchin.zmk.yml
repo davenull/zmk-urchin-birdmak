@@ -6,7 +6,6 @@ url: https://github.com/duckyb/urchin
 requires: [pro_micro]
 features:
   - keys
-  - studio
 siblings:
   - urchin_left
   - urchin_right
